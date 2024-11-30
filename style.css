@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+    background: #3a3838;
+
+}
+.conatainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.show-calculation{
+    width: 400px;
+    height: 100px;
+    background-color: #545252;
+    border: none;
+    /* border-radius: 10px; */
+}
+.show-calculation>input{
+width: 100%;
+height: 100%;
+background-color: #989696;
+text-align: right;
+/* border-radius: 10px; */
+font-size: 2vw;
+border: none;
+padding: 5px;
+}
+
+
+.number-dial{
+    background: #525151;
+    width: fit-content;
+    height: 62vh;
+    /* position: absolute; */
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(3,100px);
+}
+.number-dial>button{
+    background: #525151;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 1.7vw;
+
+}
+.number-dial>button:hover{
+    background: #989696;
+}

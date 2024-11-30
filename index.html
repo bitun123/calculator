@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculator</title>
+</head>
+<body>
+    <div class="conatainer">
+  
+<div class="show-calculation">
+    <input type="text" id="display">
+</div>
+<div class="number-dial">
+    <button class="delete" onclick="Delete('del')">Del</button>
+    <button class="ac" onclick="AllDelete('ac')">Ac</button>
+    <button class="percentage" onclick="calculate('%')">%</button>
+    <button class="equal" onclick="equal('=')">=</button>
+    <button class="btn7" onclick="calculate('7')">7</button>
+    <button class="btn8" onclick="calculate('8')">8</button>
+    <button class="btn9" onclick="calculate('9')">9</button>
+    <button class="devide" onclick="calculate('/')">/</button>
+    <button class="btn6" onclick="calculate('6')">6</button>
+    <button class="btn5" onclick="calculate('5')">5</button>
+    <button class="btn4" onclick="calculate('4')">4</button>
+    <button class="sub-straction" onclick="calculate('-')">-</button>
+    <button class="btn3" onclick="calculate('3')">3</button>
+    <button class="btn2" onclick="calculate('2')">2</button>
+    <button class="btn1" onclick="calculate('1')">1</button>
+    <button class="multiplication" onclick="calculate('*')">*</button>
+    <button class="ponit" onclick="calculate('.')">.</button>
+    <button class="single-zero" onclick="calculate('0')">0</button>
+    <button class="double-zro" onclick="calculate('00')">00</button>
+    <button class="addition" onclick="calculate('+')">+</button>
+</div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
